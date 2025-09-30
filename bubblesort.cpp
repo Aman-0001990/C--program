@@ -5,10 +5,10 @@ int main(){
 	int n,j,i,temp;
 	scanf("%d",&n);
 	int a[n];
-	for(i=0;i<n;i++){
+	for(){
 		scanf("%d",&a[i]);
 	}
-	for(i=0;i<n;i++){
+	for(){
 		for(j=0;j<n-1;j++){
 			if(a[j]>a[j+1]){
 				temp=a[j];
@@ -22,3 +22,4 @@ int main(){
 	}
 	return 0;
 }
+
